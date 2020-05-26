@@ -29,3 +29,24 @@ To check the TypeScript version, use the following command:
 ```
 $ tsc -v
 ```
+
+Create a TypeScript configuration file to configure JavaScript version to generate, which directory to genereate the JavaScript file etc.
+
+```
+$ tsc --init
+```
+
+This command will generate the tsconfig.json file, which can be edited to set different options.
+
+### Genrate and test TypeScript
+
+Use node.js to test out the TypeScript.
+Download and install:
+[node.js](https://nodejs.org/en/)
+
+```
+// Compile the TypeScript to JavaScript.
+$ tsc
+// Test a JavaScript file:
+$ node person.js
+```
