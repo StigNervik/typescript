@@ -47,6 +47,9 @@ Download and install:
 ```
 // Compile the TypeScript to JavaScript.
 $ tsc
-// Test a JavaScript file:
-$ node person.js
+// Test a JavaScript file, the output directory
+// is named javascript for the generated
+// JavaScript files:
+$ node javascript/person.js
+//
 ```
